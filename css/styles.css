@@ -59,3 +59,38 @@ table tr:not(:last-of-type){
     background-clip: text;
     -webkit-background-clip: text;
   }
+
+  .image-wrapper{
+    height: 280px;
+  }
+
+  .image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.1s ease-in-out;
+  }
+  .image-wrapper img:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+  }
+
+  .service-title{
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    padding: 20px 30px; 
+    background-color: rgba(0,0,0,0.4);
+    color: #f5f5f5;
+    font-size: 21px;
+  }
+
+  .gradient{
+    background: #9CECFB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+  }
