@@ -10,6 +10,10 @@ body{
     max-width: 1440px;
 }
 
+.padding1015{
+    padding: 10px 15px;
+}
+
 .pointer{
     cursor: pointer;
 }
@@ -60,20 +64,12 @@ table tr:not(:last-of-type){
     -webkit-background-clip: text;
   }
 
-  .image-wrapper{
-    height: 280px;
-  }
-
   .image-wrapper img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: all 0.1s ease-in-out;
   }
-  .image-wrapper img:hover{
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
-  }
-
   .service-title{
     position: absolute;
     left: 0.5rem;
@@ -94,4 +90,11 @@ background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+
 .tiktok{
   color: #111111;
   filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+}
+
+.sub-title{
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: .875em;
+  color: #6c757d;
 }
