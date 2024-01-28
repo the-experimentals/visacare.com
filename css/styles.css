@@ -98,3 +98,14 @@ background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+
   font-size: .875em;
   color: #6c757d;
 }
+
+.image-banner{
+  height: 420px;
+}
+
+.image-banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
