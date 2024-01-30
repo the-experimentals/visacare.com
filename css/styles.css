@@ -103,7 +103,11 @@ background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+
   height: 620px;
   object-position: center;
   object-fit: cover;
-  transition: all 0.1s ease-in-out;
   background-size: cover;
+
+  background-repeat: no-repeat;
   background-position: center;
+
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.4);
 }
